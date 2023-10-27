@@ -80,6 +80,18 @@ section{
     background-color: #4C688B;
 }
 
+ section a:link{
+    color:#201858;
+    text-decoration:underline;
+}
+section a:visited{
+    color:#201858;
+    text-decoration:underline;
+}
+section a:hover{
+    text-decoration:underline;
+    color: #847EB1;
+}
 #goallist{
     margin-left: 36px;
     line-height:1.5em;
@@ -137,4 +149,10 @@ footer a:hover{
 .accounts a:hover{
     text-decoration:underline;
     color: #847EB1;
+}
+
+img{
+margin: auto;
+display: block;
+text-align: center;
 }
