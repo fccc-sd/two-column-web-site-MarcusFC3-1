@@ -5,6 +5,7 @@
 }
 
 body{
+    background-image: url(bluegraybackground.webp);
     background-color: #748BA7;
 }
 #container{
@@ -35,8 +36,8 @@ nav{
     padding: 10px;
     display: block;
     font-size: 1.25em;
-    margin-bottom: 10px;
-    width: 940px;
+    margin: 0px 10px 10px 10px;
+    width: 920px;
     background-color: #847EB1;
     
 }
@@ -60,24 +61,28 @@ nav a:hover{
 }
 
 aside{
-width: 200px;
+width: 190px;
 height: 400px;
 padding: 10px;
-margin: 0 10px 10px 0;
+margin: 0 0px 10px 10px;
 float:left;
 color:#051B38;
 background-color: #4C688B;
 }
 
 section{
-    width: 710px;
+    width: 700px;
     height: 400px;
     padding: 10px;
-    margin: 0 0 10px 0;
+    margin: 0 10px 10px 10px;
     line-height: 1.5;
     float:right;
     color:#051B38;
     background-color: #4C688B;
+}
+section img{
+padding: 10px;
+float: left;
 }
 
  section a:link{
@@ -102,7 +107,7 @@ section a:hover{
 }
 
 footer{
-padding: 10px;
+padding: 20px;
 clear:both;
 text-align: center;
 color:#0E5342;
@@ -151,8 +156,8 @@ footer a:hover{
     color: #847EB1;
 }
 
-img{
-margin: 0 auto;
+img{  
 display: block;
+margin: 0 auto;
 text-align: center;
 }
