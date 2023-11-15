@@ -1,5 +1,4 @@
 *{
-    
     margin: 0;
     padding: 0;
 }
@@ -44,7 +43,7 @@ nav{
 
 nav li{
     display: inline;
-    padding-right: 40px;
+    padding-right: 30px;
     list-style-type: none;
 }
 nav a:link{
@@ -62,7 +61,7 @@ nav a:hover{
 
 aside{
 width: 190px;
-height: 400px;
+height: 450px;
 padding: 10px;
 margin: 0 0px 10px 10px;
 float:left;
@@ -72,7 +71,7 @@ background-color: #4C688B;
 
 section{
     width: 700px;
-    height: 400px;
+    height: 450px;
     padding: 10px;
     margin: 0 10px 10px 10px;
     line-height: 1.5;
@@ -107,7 +106,7 @@ section a:hover{
 }
 
 footer{
-padding: 20px;
+padding: 15px;
 clear:both;
 text-align: center;
 color:#0E5342;
@@ -160,4 +159,20 @@ img{
 display: block;
 margin: 0 auto;
 text-align: center;
+}
+
+table{
+    border: solid 1px #201858;
+    background-color: #847EB1;
+    display: block;
+    text-align: center;
+}
+
+tr, td, th 
+{
+    border: solid 2px #201858;
+    padding: 5px;
+    width: 220px;
+    height: 5px;
+    text-align: center;
 }
