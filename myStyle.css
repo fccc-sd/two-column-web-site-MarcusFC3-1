@@ -96,6 +96,16 @@ section a:hover{
     text-decoration:underline;
     color: #847EB1;
 }
+article{
+    width: 890px;
+    height: 450px;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+    line-height: 1.5;
+    float:right;
+    color:#051B38;
+    background-color: #4C688B;
+}
 #goallist{
     margin-left: 36px;
     line-height:1.5em;
