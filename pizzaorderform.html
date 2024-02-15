@@ -28,13 +28,13 @@
 		</nav>
 
         <aside>
-           <br><br><br><br>
+            <br><br><br><br><br><br><br><br>
             <img src="pizza.jpg" alt="Marcus in Four County uniform at home" height="126" width="190">
         </aside>
 
         <section>
            <form name="pizzaOrderForm" action="pizzaorderform.html" method="post">
-           
+           <h3>Contact Information</h3>
            <p> 
                 <label for="firstName">First Name:</label> <input type="text" name="firstName" id="firstName">
                 <label for="lastName">Last Name:</label> <input type="text" name="lastName" id="lastName"> 
@@ -45,25 +45,23 @@
             </p>
             <h3>Select Your Size</h3>
             
-            <fieldset>
-                <div class="radcheck">
-                    <p>Small <input type="radio" id="small" name="size"></p>
-                    <p>Medium <input type="radio" id="medium" name="size"></p>
-                    <p>Large <input type="radio" id="large" name="size"></p>
-                </div>
+            <fieldset> 
+                    <p class="radcheck">Small &ensp; &nbsp;<input type="radio" id="small" name="size"></p>
+                    <p class="radcheck">Medium <input type="radio" id="medium" name="size"></p>
+                    <p class="radcheck">Large &emsp;<input type="radio" id="large" name="size"></p>
             </fieldset>
             <h3>Select Your Toppings</h3>
             <fieldset>
-                <div class="radcheck">
-                    <p>Pepperoni <input type="checkbox" id="pepperoni" name="toppings"></p>
-                    <p>Ham &emsp;&ensp;&nbsp;&nbsp;<input type="checkbox" id="ham" name="toppings"></p>
-                    <p>Sausage &nbsp;&nbsp;   <input type="checkbox" id="sausage" name="toppings"></p>
-                    <p>Bacon &emsp; &nbsp; <input type="checkbox" id="bacon" name="toppings"></p>
-                    <p>Olives    <input type="checkbox" id="pepperoni" name="toppings"></p>
-                </div>
+
+                    <p class="radcheck">Pepperoni <input type="checkbox" id="pepperoni" name="toppings"></p>
+                    <p class="radcheck">Ham &emsp;&ensp;&nbsp;&nbsp;<input type="checkbox" id="ham" name="toppings"></p>
+                    <p class="radcheck">Sausage &nbsp;&nbsp;   <input type="checkbox" id="sausage" name="toppings"></p>
+                    <p class="radcheck">Bacon &emsp;  <input type="checkbox" id="bacon" name="toppings"></p>
+                    <p class="radcheck">Olives &emsp;&nbsp;   <input type="checkbox" id="pepperoni" name="toppings"></p>
             </fieldset>
             <h3>Notes To The Cook</h3>
-            <p><textarea name="notes" id="notes" cols="50" rows="7"></textarea></p>
+            <p><textarea name="notes" id="notes" cols="70" rows="2"></textarea></p>
+            <input type="submit" value="Place Order">
            </form>
         </section>
 
