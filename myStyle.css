@@ -166,9 +166,9 @@ footer a:hover{
 }
 
 img{  
-display: block;
+display:block;
 margin: 0 auto;
-text-align: center;
+padding-top:10px;
 }
 
 table{

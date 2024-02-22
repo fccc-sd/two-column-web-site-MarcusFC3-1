@@ -15,10 +15,9 @@ body{
 
 header{
     width: 910px;
-    height: 100px;
-    padding-top: 10px;
-    line-height:2em;
-    padding: 10px 0 10px 0;
+    height: 150px;
+    line-height:3.5em;
+    padding: 10px 25px 10px 2px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
@@ -31,25 +30,33 @@ h3{
     font-size:1.4em;
     font-weight:bold;
     color:#201858;
-
 }
+
 nav{
     font-size: 1.25em;
-    padding:20px 0 10px 0;
     margin-bottom: 10px;
     margin-top: 10px;
+    padding-right:30px;
     width: 920px;
-    height:90px;
+    height:170px;
     background-color: #847EB1;
-    display: grid;
 }
-
+nav ul{
+    padding-top:5px;
+}
 nav li{
-    padding:1px;
-    border: solid 2px #201858;
-    display: inline;
-    vertical-align:middle;
+    padding-top:5px;
+    display: block;
     list-style-type: none;
+    padding-left: 0px;
+    float: left;
+}
+nav a{
+    padding:3px;
+    border: solid 2px #201858;
+    width:120px;
+    display: inline-block;
+    text-align: center;
 }
 nav a:link{
     color:#0E083B;
@@ -63,7 +70,6 @@ nav a:hover{
     color: #5B5393;
    
 }
-
 aside{
 width: 190px;
 height: 450px;
@@ -75,7 +81,7 @@ background-color: #4C688B;
 
 section{
     width: 700px;
-    height: 200px;
+    height: 110px;
     margin-bottom: 10px;
     line-height: 1.5;
     float:right;
@@ -168,11 +174,10 @@ footer a:hover{
     color: #847EB1;
 }
 
-img{  
-    padding:60px;
+img{ 
+padding:20px 20px 0px 15px;
 display: block;
 margin: 0 auto;
-text-align: center;
 }
 
 table{
@@ -198,4 +203,7 @@ tr, td, th
 
 fieldset{
     border-color:#201858; ;
+}
+p{
+    padding: 10px;
 }
